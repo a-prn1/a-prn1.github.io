@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Isère Industrie</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="pages/style/styles_index.css" />
+</head>
+
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html" title="Accueil">
+        <img src="pages/style/images/logo.png" alt="Accueil" width="192" height="192"
+          class="d-inline-block align-text-top">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="pages/boutique.html">Boutique</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/faq.html">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/a_propos.html">A propos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/contact.html">Contact</a>
+          </li>
+        </ul>
+        <div class="container-fluid">
+          <a href="pages/connexion.html" class="ms-lg-auto" title="Se connecter">
+            <img src="pages/style/images/avatar.svg" alt="Connection" width="36" height="36"
+              class="rounded-circle border">
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="carousel container-fluid">
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="pages/style/images/soudeur.jpg" class="d-block w-100" alt="soudeur">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Soudage</h5>
+            <p>Allant des robots au consommables pour poste manuel.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="pages/style/images/oxycoupage.jpg" class="d-block w-100" alt="oxycoupage">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Découpe</h5>
+            <p>Oxycoupage, plasma, meule, ...
+              du matériel et des références solides et éprouvées.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="pages/style/images/condition difficile.jpg" class="d-block w-100" alt="condition difficile">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Sécurité</h5>
+            <p>Tout le nécessaire de protection pour le travail en condition dégradé, difficile voir extrême.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="avis container my-5">
+    <h2 class="text-center mb-4">Avis clients</h2>
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="card h-100 avis-card">
+          <div class="card-body">
+            <div class="avis-etoiles" aria-label="5 étoiles sur 5">★★★★★</div>
+            <p class="card-text">« Livraison rapide et matériel de soudage conforme à la description. Un fournisseur sérieux, je recommande. »</p>
+            <p class="avis-auteur mb-0">Marc D. - Atelier de chaudronnerie, Grenoble</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card h-100 avis-card">
+          <div class="card-body">
+            <div class="avis-etoiles" aria-label="4 étoiles sur 5">★★★★☆</div>
+            <p class="card-text">« Très bon conseil sur les équipements de protection. L'équipe a su m'orienter vers le bon modèle. »</p>
+            <p class="avis-auteur mb-0">Sophie L. - Responsable maintenance, Voiron</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="revendeur container my-5">
+    <h2 class="revendeur-titre text-center mb-4">Revendeur officiel :</h2>
+    <div class="row g-4 align-items-center text-center">
+      <div class="col-6 col-md-3">
+        <img src="pages/style/images/logobosch.png" alt="logo bosch" class="revendeur-logo">
+      </div>
+      <div class="col-6 col-md-3">
+        <img src="pages/style/images/logowurth.webp" alt="logo würth" class="revendeur-logo">
+      </div>
+      <div class="col-6 col-md-3">
+        <img src="pages/style/images/logogys.png" alt="logo gys" class="revendeur-logo">
+      </div>
+      <div class="col-6 col-md-3">
+        <img src="pages/style/images/logofronius.png" alt="logo fronius" class="revendeur-logo">
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <a href="pages/contact.html">
+      <small>&copy PERRIN Alexis - B1 2016 </small>
+    </a>
+  </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

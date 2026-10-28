@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connexion</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style/styles_index.css" />
+</head>
+
+
+<body id="connexion">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html" title="Accueil">
+        <img src="style/images/logo.png" alt="Accueil" width="192" height="192" class="d-inline-block align-text-top">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="boutique.html">Boutique</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="faq.html">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="a_propos.html">A propos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <div class="container-fluid">
+          <a href="connexion.html" class="ms-lg-auto" title="Se connecter">
+            <img src="style/images/avatar.svg" alt="Connection" width="36" height="36" class="rounded-circle border">
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <form>
+    <div class="formconnection">
+      <label for="emailconnection" class="form-label">adresse mail</label>
+      <input type="email" class="form-control" id="emailconnection" aria-describedby="emailHelp">
+    </div>
+    <div class="formconnection">
+      <label for="passwordconnection" class="form-label">mot de passe</label>
+      <input type="password" class="form-control" id="passwordconnection">
+    </div>
+    <div class="formconnection">
+      <input type="checkbox" id="rester connecté" class="check">
+      <label for="rester connecté">Rester connecté</label>
+    </div>
+    <button type="submit" class="btn-solid theme-primary">connection</button>
+    <p class="inscription"> Pas de compte ? <a href="#">M'inscrire ici.</a> </p>
+  </form>
+
+  <footer>
+    <a href="contact.html">
+      <small>&copy PERRIN Alexis - B1 2016 </small>
+    </a>
+  </footer>
+
+</body>
+
+</html>
